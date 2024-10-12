@@ -1,0 +1,126 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    overflow: hidden;
+}
+
+div.P1 {
+    font-size: 300%;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-align: center;
+    padding-top: 25px;
+    opacity: 77%;
+}
+
+hr {
+    background-color: black;
+    border: 0;
+    padding: 2px;
+    text-decoration: none;
+    margin: 1px 500px 0px 500px;
+}
+
+img {
+    position: absolute;
+    margin: 55px 0px 0px 340px;
+    width: 150px
+    
+}
+
+.bordered-image {
+    border: 5px solid rgba(8, 8, 8, 0.616);
+    border-radius: 10px;
+}
+
+div.P2 {
+    font-size: 20px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: bold;
+    margin: 55px 0px 0px 500px;
+    color: rgb(255, 255, 255);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+div.IMG2 {
+    margin: -130px 0px 0px 590px;
+    padding: 10px;
+    position: absolute;
+    z-index: 1;
+}
+
+img.IMG2GG {
+    width: 217px;
+    image-rendering: auto;
+    z-index: 1;
+}
+
+div.Kotak {
+    position: absolute;
+    margin: -190px 0px 100px 200px;
+    padding: 50px 900px 420px 50px;
+    background: black;
+    z-index: -1000;
+    opacity: 50%;
+    border-radius: 50px;
+}
+
+div.video {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -10000;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+a {
+    position: absolute;
+    text-decoration: none;
+    border: 10px solid white;
+    border-radius: 30px;
+    padding: 30px 100px 30px 100px;
+    margin: 70px 0px 0px 340px;
+    font-size: 50px;
+    color: white;
+    font-weight: 800;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: rgba(128, 128, 128, 0.678);
+    transition: all;
+    transition-duration: 800ms;
+}
+
+a:hover {
+    border: 10px solid rgba(128, 128, 128, 0.678);
+    padding: 40px 100px 30px 120px;
+    margin: 60px 0px 0px 330px;
+    font-size: 50px;
+    color: rgba(128, 128, 128, 0.678);
+    font-weight: 800;
+    background: rgba(255, 255, 255, 0.726);
+}
+
+div.Imagelogo img {
+    position: absolute;
+    width: 200px;
+    transition: all;
+    transition-duration: 400ms;
+}
+
+div.Imagelogo {
+    margin: -365px 0px 0px -320px ;
+}
+
+div.Imagelogo img:hover {
+    width: 210px;
+}
